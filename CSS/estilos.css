@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A7C957;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: white;
+}
+
+.nombre_empresa {
+    text-align: center;
+    font-family: 'Neucha', cursive;
+}
+
+.titulo {
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    height: 80px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 25px;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+h2 {
+    color: gray;
+    text-shadow: 1px 2px 2px black, 0 0 25px green, 0 0 5px yellow;
+    text-align: center;
+}
+
+.galeriacontenedor {
+    margin: auto;
+}
+
+.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 blue, 0 10 px 20px 0 black;
+    width: 350px;
+    display: inline-block;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria:hover {
+    border: 1px solid lightcoral;
+    transform: scale(1.1);
+}
+
+.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+    padding: 10px;
+}
+
+.viveros {
+    height: 100%;
+    width: 100%;
+}
+
+#redesSociales {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.redes {
+    color: black;
+    font-size: 40px;
+}
+
+.contacto {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.perfil {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#contenedor_compras {
+    margin-top: 20px;
+}
+
+#comprar {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#comprar img {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+.rellenoPublicaciones {
+    background-color: white;
+}
+
+.iconos {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
