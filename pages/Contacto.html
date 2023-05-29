@@ -5,128 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <title>Contacto🌻🌼</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Plantfan🌻🌼</title>
 </head>
 
 <body>
     <header>
-        <a href="#index.html"><img src="../img/1.png" alt="logo empresa">
-        </a>
-        <section>
-            <h4>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="../index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="./Comprar.html">Comprar</a>
-                        </li>
-                        <li>
-                            <a href="./Publicaciones.html">Publicaciones</a>
-                        </li>
-                        <li>
-                            <a href="./Contacto.html">Contacto</a>
-                        </li>
-                        <li>
-                            <a href="./Perfil.html">Perfil</a>
-                        </li>
-                    </ul>
-                    <div class="iconos">
-                        <ul>
-                            <a href="#">
-                                <ion-icon name="search-outline" class="iconos"></ion-icon>
-                            </a>
-                            <a href="#">
-                                <ion-icon name="cart-outline" class="iconos"></ion-icon>
-                            </a>
-                            <a href="#">
-                                <ion-icon name="bookmark-outline" class="iconos"></ion-icon>
-                            </a>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"> <img src="../img/1.png" class="logo" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Perfil.html">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Publicaciones.html">Publicaciones</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Comprar
+                        </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./Comprar.html">Plantas</a></li>
+                                    <li><a class="dropdown-item" href="./Comprar.html">Accesorios</a></li>
+                                    <li><a class="dropdown-item" href="./Comprar.html">Sustratos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Contacto.html">Contacto</a>
+                            </li>
                         </ul>
                     </div>
-                </nav>
-            </h4>
-        </section>
+                </div>
+            </nav>
+        </div>
     </header>
-    <hr>
-    <br>
-    <Main>
-        <h1 class="titulo">Contacto</h1>
-        <fieldset>
-            <LEGend> Formulario de contacto </LEGend>
-            <form action="">
-                <div>
-                    <label for="Nombre">Escribe tu nombre: </label>
-                    <input type="text" name="nombre" placeholder="Maria">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li> <a href="#"> Sobre nosotros</a></li>
+                        <li> <a href="#"> Nuestros servicios</a></li>
+                        <li> <a href="#">Politica de privacidad</a></li>
+                    </ul>
                 </div>
-                <br>
-                <div>
-                    <label for="apellido"> Escribe tu apellido: </label>
-                    <input type="text" name="apellido" placeholder="Gonzalez">
+                <div class="footer-col">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li> <a href="#">Preguntas frecuentes</a></li>
+                        <li> <a href="#">Tips y cuidados</a></li>
+                        <li> <a href="#">Estado de mi orden</a></li>
+                        <li> <a href="#">Metodos de pago</a></li>
+                    </ul>
                 </div>
-                <br>
-                <div>
-                    <label for="email"> Email*: </label>
-                    <input type="email" placeholder="mariagonzalez1@gmail.com" required>
+                <div class="footer-col">
+                    <h4>Compra 100% segura</h4>
+                    <ul>
+                        <li> <a href="#">Nuestro sitio tiene toda la seguridad para tu compra</a></li>
+                    </ul>
                 </div>
-                <br>
-                <div>
-                    <label for="Sexo">Género: 
-                <input type="radio" name="Sexo" value="Fem"> Mujer
-                <input type="radio" name="Sexo" value="Hom"> Hombre
-                <input type="radio" name="Sexo" value="no_b"> No binario
-             </label>
+                <div class="footer-col">
+                    <h4>Siguenos</h4>
+                    <div class="social-links">
+                        <li>
+                            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                            <a href="#"> <i class="fab fa-twitter"></i></a>
+                            <a href="#"> <i class="fab fa-instagram"></i></a>
+                            <a href="#"> <i class="fab fa-pinterest"></i></a>
+                        </li>
+                    </div>
                 </div>
-                <br>
-                <div>
-                    <label for="Comentarios"> Deja tu mensaje: </label> <br>
-                    <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
-                </div>
-                <br>
-                <div>
-                    <label for="condic"> Acepta las condiciones</label>
-                    <input type="checkbox" name="condic">
-                </div>
-                <br>
-                <div>
-                    <input type="submit" value="Enviar Formulario">
-                    <input type="reset" value="Restablecer Formulario">
-                </div>
-            </form>
-        </fieldset>
-    </Main>
-    <footer>
-        <section>
-            <div id="redesSociales">
-                <a href="https://www.instagram.com/" target="_blank">
-                    <ion-icon name="logo-instagram" class="redes"></ion-icon>
-                </a>
-
-
-                <a href="https://www.facebook.com/search/top?q=hostel%20springfield" target="_blank">
-                    <ion-icon name="logo-facebook" class="redes"></ion-icon>
-                </a>
-
-
-                <a href="https://web.whatsapp.com/" target="_blank">
-                    <ion-icon name="logo-whatsapp" class="redes"></ion-icon>
-                </a>
             </div>
-            <div class="contacto">
-                <h3 class="titulo"><b>Contacto</b></h3>
-                <p>Correo: Plantfan@gmail.com</p>
-                <p>Telefono: +54 11 12345678</p>
-            </div>
-            </div>
-        </section>
+        </div>
     </footer>
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>

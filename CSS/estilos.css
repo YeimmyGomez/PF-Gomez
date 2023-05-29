@@ -1,142 +1,152 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: #A7C957;
-    font-family: 'Quicksand', sans-serif;
-}
-
-header a {
-    text-decoration: none;
-}
-
-header h1 {
-    color: white;
-}
-
-.nombre_empresa {
-    text-align: center;
-    font-family: 'Neucha', cursive;
-}
-
-.titulo {
-    font-family: 'Neucha', cursive;
-    text-align: center;
-    color: white;
-    text-decoration: underline;
-}
-
-p {
-    font-family: 'Quicksand', sans-serif;
-}
-
-img {
-    height: 80px;
-}
-
-nav {
-    text-align: center;
-}
-
-nav ul li {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     list-style: none;
-    margin-right: 25px;
-    display: inline;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Quicksand', sans-serif;
+.nav-link {
+    transition: all 0.2s;
 }
 
-nav ul li a:hover {
-    color: black;
+.nav-link:hover {
+    /*  text-decoration: underline;*/
+    border-bottom: 2px solid #386641;
 }
 
-h2 {
-    color: gray;
-    text-shadow: 1px 2px 2px black, 0 0 25px green, 0 0 5px yellow;
-    text-align: center;
+.logo {
+    width: 100px;
+    height: 55px;
 }
 
-.galeriacontenedor {
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.buttonc {
+    background-color: #386641;
+}
+
+.buttonp {
+    background-color: #386641;
+}
+
+.container {
+    max-width: 1170px;
     margin: auto;
 }
 
-.galeria {
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 blue, 0 10 px 20px 0 black;
-    width: 350px;
-    display: inline-block;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.galeria img {
-    width: 100%;
-    height: auto;
+ul {
+    list-style: none;
 }
 
-.galeria:hover {
-    border: 1px solid lightcoral;
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
     transform: scale(1.1);
 }
 
-.pie {
-    text-align: center;
-    text-shadow: 2px 2px 5px gray;
-    padding: 10px;
+.containerg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "imagen1 imagen1" "imagen2 imagen3";
 }
 
-.viveros {
-    height: 100%;
-    width: 100%;
+.footer {
+    background-color: #24262b;
+    padding: 40px 0;
 }
 
-#redesSociales {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
 }
 
-.redes {
-    color: black;
-    font-size: 40px;
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
 }
 
-.contacto {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    background-color: #386641;
+    height: 2px;
+    width: 50px;
+    box-sizing: border-box;
 }
 
-.perfil {
-    font-family: 'Quicksand', sans-serif;
+.footer-col ul li:not :last-child {
+    margin-bottom: 10px;
 }
 
-#contenedor_compras {
-    margin-top: 20px;
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
 }
 
-#comprar {
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a {
     display: inline-block;
-    vertical-align: top;
-    font-family: 'Quicksand', sans-serif;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
 }
 
-#comprar img {
-    float: left;
-    width: 600px;
-    height: 400px;
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
 }
 
-.rellenoPublicaciones {
-    background-color: white;
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
 
-.iconos {
-    color: white;
-    font-size: 20px;
-    margin-top: 10px;
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
 }
