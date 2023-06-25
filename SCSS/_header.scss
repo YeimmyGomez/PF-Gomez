@@ -1,3 +1,17 @@
+.topbar {
+    background-color: #386641;
+    text-align: center;
+    .navbar-text {
+        color: #ffffff;
+    }
+}
+
+.containernav {
+    background-color: #ffffff;
+    max-width: 1170px;
+    margin: auto;
+}
+
 .nav-link {
     transition: all 0.2s;
 }
@@ -10,4 +24,10 @@
 .logo {
     width: 100px;
     height: 55px;
+}
+
+.icons {
+    font-size: 2.5rem;
+    color: #2d2d2d;
+    margin-left: 1.5rem;
 }

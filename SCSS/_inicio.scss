@@ -1,0 +1,36 @@
+.c-item {
+    height: 480px;
+    min-height: 90vh;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.buttonc {
+    background-color: #386641;
+    border-color: #386641;
+}
+
+.buttonp {
+    background-color: #386641;
+    border-color: #386641;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(14, 158, 86, 0.136);
+    span {
+        color: #386641;
+    }
+}
+
+section {
+    padding: 2rem 9%;
+}
